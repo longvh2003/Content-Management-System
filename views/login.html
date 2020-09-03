@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="login">
+        <!-- title -->
+        <div class="title text-md">Please Sign In</div>
+        <!-- form nhập dữ liệu -->
+        <form class="form">
+            <div><input type="email" placeholder="Email" name="email" class="email text-sm" maxlength="50" required>
+            </div>
+            <div><input type="password" placeholder="Password" name="password" class="password text-sm" maxlength="30"
+                    required></div>
+            <div><input type="checkbox" name="rememberMe" class="rememberMe"> Remember Me</div>
+            <div class="text-md"><button type="button" onclick="dieuhuong()" class="btn btn-success">Login</button>
+            </div>
+            <div class="link"><a href="register.html" class="text-sm">Click here to register</a></div>
+        </form>
+    </div>
+    <script src="../javascript/login.js"></script>
+</body>
+
+</html>

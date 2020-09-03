@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Content</title>
+</head>
+
+<body>
+    <h3>Edit Profile</h3>
+    <form class="form">
+        <div class="title">Profile Form Elements</div>
+        <div class="firstName bold">First Name</div>
+        <div><input type="text" class="inputFirstName" placeholder="Enter the first name" maxlength="30" required></div>
+        <div class="lastName bold">Last Name</div>
+        <div><input type="text" class="inputLastName" placeholder="Enter the last name" maxlength="30" required></div>
+        <div class="email bold">Email</div>
+        <div><input type="email" class="inputEmail" placeholder="your_email@example.com" required readonly></div>
+        <div class="phone bold">Phone</div>
+        <div><input type="text" class="inputPhone" pattern="[0-9]{9,13}" placeholder="Enter your phone number" maxlength="13" required></div>
+        <div class="descriptions bold">Descriptions</div>
+        <div><textarea class="inputDesctiption" rows="3" maxlength="200"></textarea></div>
+        <div class="btn">
+            <button class="btn btn-success">Submit Button</button>
+            <input type="reset" class="btn btn-success" value="Reset Button">
+        </div>
+    </form>
+</body>
+
+</html>

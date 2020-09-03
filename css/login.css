@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ecf0f1 !important;
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #95a5a6;
+  min-width: 300px;
+  width: 30%;
+  border-radius: 5px;
+}
+.title {
+  font-weight: 500;
+  padding: 5px 0 5px 10px;
+  border-bottom: 1px solid #95a5a6;
+}
+.form {
+  background-color: white;
+}
+.form div {
+  padding: 10px 10px 0 10px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border: 1px solid #95a5a6;
+  padding: 7px;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 5px;
+}
+.btn {
+  width: 100%;
+}
+.text-md {
+  font-size: 18px;
+}
+.text-sm {
+  font-size: 14px;
+}
+.link {
+  padding: 10px !important;
+}
+input::placeholder {
+  color: lightgray;
+}
+input {
+  outline-color: #48dbfb;
+}
